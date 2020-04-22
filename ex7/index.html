@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>春</title>
+	<link rel="stylesheet" href="mystyle.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="swiper.css">
+
+     <style> body {
+        background: #eee;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color:#000;
+        margin: 0;
+        padding: 0;
+    }
+    .swiper-container {
+        width: 800px;
+        height: 400px;
+        margin: 20px auto;
+    }
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+    </style>
+</head>
+<body>
+
+	<div class="top">
+    <div class="inner">
+	<div class="top-left">欢迎登陆</div>
+	<div class="top-right">退出</div>
+	</div>
+    </div>
+    <div class="bg" style="width: 100%;height: 100%;z-index: -1;position: fixed;">
+    <img src="../image/bg3.jpg" width=100%; height=100%></div>
+     <div class="logo">
+     	<div class="imgbox">
+        <img src="../image/logo4.jpg" width="100%" height="100%">
+     	</div>
+     	<div class="inputbox"><br><br>
+         <form method="post" action="">
+         <input type="text" name="serch">
+         </form>
+     	</div>
+     </div>
+
+<div class="nav">
+	<ul>
+		<li><a href="index.html">首页</a></li>
+		<li><a href="ex7-1.html">春天活动</a></li>
+		<li><a href="ex7-2.html">春的诗词</a></li>
+		<li><a href="ex7-3.html">春天的花</a></li>
+		<li><a href="ex7-4.html">春天音画</a></li>
+	</ul>
+</div>
+
+<div class="banner">
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="../image/spring1.jpg" width=800px; height=400px;></div>
+            <div class="swiper-slide"><img src="../image/spring2.jpg" width=800px; height=400px;></div>
+            <div class="swiper-slide"><img src="../image/spring3.jpg" width=800px; height=400px;></div>
+            <div class="swiper-slide"><img src="../image/spring4.jpg" width=800px; height=400px;></div>
+            <div class="swiper-slide"><img src="../image/spring5.jpg" width=800px; height=400px;></div>
+            <div class="swiper-slide"><img src="../image/spring6.jpg" width=800px; height=400px;></div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+</div>
+ <!-- Swiper JS -->
+    <script src="js/swiper.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        paginationClickable: true,
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: 2500,
+        autoplayDisableOnInteraction: false
+    });
+    </script>
+<!--图文信息层-->
+<div class="content">
+<ul>
+	<li><a href=""><img src="../image/spring1.jpg" alt="" width=245px; height=200px;><br>
+	<span style="text-indent: 2em">时至立春，人们明显地感觉到白昼长了，太阳暖了。气温、日照、降雨，这时常处于一年中的转折点，趋于上升或增多。小春作物长势加快，油菜抽苔和小麦拔节时耗水量增加，应该及时浇灌追肥，促进生长。立春太阳位于黄经315度，2月3-5日交节。</span></a></li>
+	<li><a href=""><img src="../image/spring2.jpg" alt="" width=245px; height=200px;><br>
+	<span style="text-indent: 2em">雨水节气的涵义是降雨开始，雨量渐增，在二十四节气的起源地黄河流域，雨水之前，天气寒冷，但见雪花纷飞，难闻雨声淅沥。雨水之后气温一般可升至0 ℃以上，雪渐少而雨渐多。</span></a></li>
+	<li><a href=""><img src="../image/spring3.jpg" alt="" width=245px; height=200px;><br>
+	<span style="text-indent: 2em">“惊蛰不离九九三”。反映自然物候现象的惊蛰，含义是：春雷乍动，惊醒了蛰伏在土中冬眠的动物。这时，气温回升较快，长江流域大部地区已渐有春雷。</span></a></li>
+	<li><a href=""><img src="../image/spring4.jpg" alt="" width=245px; height=200px;><br>
+	<span style="text-indent: 2em">春分是反映四季变化的节气之一。春分这天，太阳光直射赤道，地球各地的昼夜时间相等，所以古代春分秋分又称为“日夜分”，民间有“春分秋分，昼夜平分”的谚语。春分后，中国大部分地区越冬作物进入春季生长阶段。</span></a></li>
+	<li><a href=""><img src="../image/spring5.jpg" alt="" width=245px; height=200px;><br>
+	<span style="text-indent: 2em">清明是表征物候的节气，含有天气晴朗、草木繁茂的意思。清明这天，民间有踏青、寒食、扫墓等习俗。常言道：“清明断雪，谷雨断霜。”时至清明，盆地气候温暖，春意正浓。</span></a></li>
+	<li><a href=""><img src="../image/spring6.jpg" alt="" width=245px; height=200px;><br>
+	<span style="text-indent: 2em">俗话说：“雨生百谷”。雨量充足而及时，谷类作物能够茁壮生长。谷雨节气就有这样的涵义。谷雨时节的四川盆地，“杨花落尽子规啼”，柳絮飞落，杜鹃夜啼，牡丹吐蕊，樱桃红熟，自然景物告示人们：时至暮春了。</span></a></li>
+</ul>
+</div>
+<!--结束显示-->
+<div class="card">
+	<div class="header"><h3>End</h3></div>
+</div>
+
+<!--底部显示-->
+<div class="bottom">
+	<div class="bottominner">
+	<p>制作信息：太原师范学院计算机系</p>
+	<p>网络版权信息：王佳琦@2018151210</p></div>
+</div>
+<!--返回顶部-->
+<div class="totop"><br><a href="#">顶部</a></div>	
+</body>
+</html>
